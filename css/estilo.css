@@ -1,0 +1,38 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    margin: auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#j1, #j2 {
+    margin: 0 20px;
+    padding: 0 20px;
+}
+
+
+#placar {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: black 2px solid;
+    margin: 0 10px;
+    font-size: xxx-large;
+}
+
+#ranking {
+    height: 50px;
+    background-color: lightblue;
+    margin: 0 10px;
+    font-size: larger;
+    margin: auto;
+}

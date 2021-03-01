@@ -1,0 +1,43 @@
+<!-- Aluno: Luiz Gonzaga A. de Oliveira -->
+<!-- Senai Cimatec / Disciplina: Programação WEB-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jogo 21 de boca</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <h1>Jogo 21 de boca</h1>
+
+    <div id="app">
+        <div id="j1">
+            <h2>Você</h2>
+            <button name="b1_a" value="1" onclick="setScore(this)">+1</button>
+            <button name="b1_b" value="2" onclick="setScore(this)">+2</button>
+            <button name="b1_c" value="3" onclick="setScore(this)">+3</button>    
+        </div>
+
+        <div id="placar">  
+            
+        </div>
+        
+        <div id="j2">
+            <h2>Jogador 2</h2>
+            <button name="b2_a" onclick="setScore(this)">Computador</button>
+        </div>
+
+    </div>
+    <h3>Ranking</h3>
+    <div id="ranking">
+
+    </div>
+
+</body>
+
+<footer>
+    <h5><i>Desenvolvido por LUIZ GONZAGA A. DE OLIVEIRA</i> </h5>
+</footer>
+
+<script src="js/singleplayer.js"> </script>
+</html>
